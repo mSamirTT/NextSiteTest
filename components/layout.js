@@ -28,20 +28,27 @@ const layout = (props) => {
         {/* <!-- Header --> */}
         <Navbar></Navbar>
         {/* <!-- /Header --> */}
+      </Container>
 
+      {/* <!-- Banner --> */}
+      <section>{props.banner}</section>
+      {/* <!-- /Banner --> */}
+      <Container>
         {/* <!-- Body --> */}
         <section>{props.children}</section>
         {/* <!-- /Body --> */}
 
         {/* <!-- Footer --> */}
-          <section style={{borderTop: '1px solid lightGray', marginTop: '10px'}}>
-            <p style={{ color: "black", textAlign: "center" }}>
-              phone: 952-927-7810 | fax: 952-927-6309 | address: 7701 York
-              Avenue S. Suite 180, Edina, MN 55435
-              <br />© Endocrinology Clinic of Minneapolis, P.A.&nbsp;All Rights
-              Reserved&nbsp;
-            </p>
-          </section>
+        <section
+          style={{ borderTop: "1px solid lightGray", marginTop: "10px" }}
+        >
+          <p style={{ color: "black", textAlign: "center" }}>
+            phone: 952-927-7810 | fax: 952-927-6309 | address: 7701 York Avenue
+            S. Suite 180, Edina, MN 55435
+            <br />© Endocrinology Clinic of Minneapolis, P.A.&nbsp;All Rights
+            Reserved&nbsp;
+          </p>
+        </section>
         {/* <!-- /Footer --> */}
       </Container>
     </React.Fragment>

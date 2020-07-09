@@ -29,7 +29,14 @@ export default function Home() {
  ]
 
   return (
-    <Layout>
+    <Layout banner={      
+      <img
+        src="/banner.jpg"
+        width="100%"
+        height="180px"
+        alt="React Bootstrap logo"
+      />
+    }>
       <Row>
         <Col sm={3}>
           <Aside links={menuLinks}>
