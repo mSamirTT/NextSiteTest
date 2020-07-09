@@ -3,7 +3,6 @@ import { ListGroup } from "react-bootstrap";
 import Link from "next/link";
 
 const Aside = (props) => {
-    console.log(props.links);
   return (
     <ListGroup>
       {props.links.map((link, index) => {

@@ -9,7 +9,7 @@ const layout = (props) => {
       <style jsx>{``}</style>
       <Head>
         <title>Title</title>
-        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta httpEquiv="content-type" content="text/html; charset=utf-8" />
         <meta name="description" content="" />
         <meta name="keywords" content="" />
         <link
@@ -21,7 +21,7 @@ const layout = (props) => {
           rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
           integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
         />
       </Head>
       <Container>
@@ -35,7 +35,7 @@ const layout = (props) => {
 
         {/* <!-- Footer --> */}
           <section style={{borderTop: '1px solid lightGray', marginTop: '10px'}}>
-            <p style={{ color: "black", "text-align": "center" }}>
+            <p style={{ color: "black", textAlign: "center" }}>
               phone: 952-927-7810 | fax: 952-927-6309 | address: 7701 York
               Avenue S. Suite 180, Edina, MN 55435
               <br />© Endocrinology Clinic of Minneapolis, P.A.&nbsp;All Rights
