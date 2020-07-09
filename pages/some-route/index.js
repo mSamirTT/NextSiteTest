@@ -6,15 +6,15 @@ import Layout from '../../components/layout';
 const SomeRoute= () => {
   const menuLinks = [{
     ref: '/',
-    text: 'my Link baby' 
+    text: 'Link' 
    },
    {
     ref: '/',
-    text: 'my Link baby' 
+    text: 'Link' 
    },
    {
     ref: '/some-route',
-    text: 'my Link baby',
+    text: 'Link',
     variant: 'Primary'
    },
  ]

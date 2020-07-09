@@ -7,23 +7,23 @@ export default function Home() {
 
   const menuLinks = [{
     ref: '/some-route',
-    text: 'my Link baby' 
+    text: 'Link' 
    },
    {
     ref: '/some-route',
-    text: 'my Link baby' 
+    text: 'Link' 
    },
    {
     ref: '/some-route',
-    text: 'my Link baby' 
+    text: 'Link' 
    },
    {
     ref: '/some-route',
-    text: 'my Link baby' 
+    text: 'Link' 
    },
    {
     ref: '/some-route',
-    text: 'my Link baby',
+    text: 'Link',
     variant: 'Primary'
    },
  ]
